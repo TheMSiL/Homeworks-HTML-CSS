@@ -70,7 +70,7 @@ body{
 
 
 .description_text{
-    display: inline-block;
+    margin: 0 auto;
     max-width: 726px;
     max-height: 265px;
     font-weight: 400;
