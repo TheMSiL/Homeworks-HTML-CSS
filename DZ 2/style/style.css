@@ -72,7 +72,6 @@ body{
 .description_text{
     margin: 0 auto;
     max-width: 726px;
-    max-height: 265px;
     font-weight: 400;
     font-size: 36px;
     line-height: 49px;
@@ -90,33 +89,27 @@ body{
 .sitcase_text{
     margin: 0 auto;
     max-width: 696px;
-    max-height: 246px;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
 }
 
-.square_1{
+.square{
     position: absolute;
     width: 178px;
     height: 121px;
     background-color: #BFDEFB;
+}
+
+.square_1{
     top: 100px;
 }
 
 .square_2{
-    position: absolute;
-    width: 178px;
-    height: 121px;
-    background-color: #BFDEFB;
     top: 346px;
 }
 
 .square_3{
-    position: absolute;
-    width: 178px;
-    height: 121px;
-    background-color: #BFDEFB;
     top: 235px;
     right: 1px;
 }
@@ -133,7 +126,6 @@ body{
     position: relative;
     margin: 0 auto;
     max-width: 696px;
-    max-height: 246px;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
@@ -174,6 +166,10 @@ body{
     border: 1px solid #000000;
     border-radius: 4px;
     box-sizing: border-box;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
 }
 
 
