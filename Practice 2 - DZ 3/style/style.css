@@ -85,13 +85,12 @@ body{
     font-size: 22px;
     line-height: 32px;
     color: #2B292D;
-}
-
-.questions_text_1{
     max-width: 555px;
-    margin-right: 29px;
 }
 
+.questions_text:not(:last-of-type){
+    margin-right: 30px;
+}
 
 .questions_text::first-line{
     font-weight: 700;
