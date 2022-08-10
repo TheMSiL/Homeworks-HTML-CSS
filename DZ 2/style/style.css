@@ -81,15 +81,14 @@ body{
 
 
 .sitcase{
-    text-align: center;
     position: relative;
-    padding: 221px 0;
+    margin: 221px auto;
 }
 
 .sitcase_text{
+    text-align: center;
     margin: 0 auto;
     max-width: 696px;
-    font-weight: 400;
     font-size: 36px;
     line-height: 42px;
 }
@@ -102,16 +101,18 @@ body{
 }
 
 .square_1{
-    top: 100px;
+    top: -121px;
+    left: 0;
 }
 
 .square_2{
-    top: 346px;
+    bottom: -50px;
+    left: 0;
 }
 
 .square_3{
-    top: 235px;
-    right: 1px;
+    top: 20px;
+    right: 0px;
 }
 
 
