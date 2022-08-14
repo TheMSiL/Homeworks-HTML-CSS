@@ -101,6 +101,10 @@ body{
 }
 
 
+.logos_link:not(:last-of-type){
+    margin-right: 105px;
+}
+
 .inbox{
     background: rgba(252, 240, 227, .4);
     padding: 117px 0 116px;
@@ -202,9 +206,9 @@ body{
     font-weight: bold;
 }
 
-.communicate_text-bold:nth-of-type(2){
+.communicate_link{
+    font-weight: bold;
     color: rgba(48, 64, 196, 1);
-    text-decoration: underline;
 }
 
 .activities{
@@ -226,7 +230,7 @@ body{
     padding-bottom: 24px;
 }
 
-.activities_text:nth-child(2){
+.container_title{
     font-weight: 700;
     font-size: 56px;
     line-height: 56px;
@@ -309,9 +313,7 @@ body{
     margin-bottom: 97px;
 }
 
-.photos_text-title{
-    font-weight: 700;
-    font-size: 56px;
+.photos_title{
     line-height: 66px;
     max-width: 588px;
     margin: 0 auto 26px;
