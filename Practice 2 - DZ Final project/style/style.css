@@ -626,7 +626,7 @@ body{
     .logos{
         display: grid;
         gap: 1px 5px;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 100px);
         grid-template-rows: repeat(2, 1fr);
         padding: 0;
         margin: 0;
@@ -687,6 +687,11 @@ body{
         width: 100%;
     }
    
+    .communication_text{
+        font-size: 17px;
+        text-align: start;
+    }
+
     .communication_text:nth-child(2), .communication_text:nth-child(3){
         display: block;
     }
