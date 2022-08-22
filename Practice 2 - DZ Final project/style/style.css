@@ -101,7 +101,9 @@ body{
     font-weight: 700;
 }
 
-
+.logos_link> img{
+    max-width: 100%;
+}
 .logos_link:not(:last-of-type){
     margin-right: 105px;
 }
@@ -360,6 +362,10 @@ body{
         margin-right: 75px ;
     }        
     
+
+    .activities_logos{
+        gap: 10px;
+    }
 }
 
 @media screen and (max-width: 1090px){
@@ -500,9 +506,11 @@ body{
         gap: 64px 38px;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
     }
 
     .photos{
+        margin-top: 50px;
         padding: 0 0 124px;
     }
 
@@ -566,6 +574,10 @@ body{
     .inbox_response{
         margin-bottom: 50px;
     }
+
+    .activities_logos{
+        gap: 40px 20px;
+    }
 }
 
 
@@ -574,12 +586,7 @@ body{
     .container{
         max-width: 430px;
     }
-  
-
-    .logos_link:nth-child(3){
-        padding-left: 30px;
-    }
-
+    
     .info_pretitle{
         margin-bottom: 20px;
     }
@@ -591,8 +598,39 @@ body{
 
     .activities_logos {
         gap: 30px 10px;
-
+        grid-template-columns: 1fr;
 }
+
+    .photos_images{
+        gap: 15px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8,1fr);
+    }
+
+    .photos_images_item:nth-child(2){
+        grid-column: 1/2;
+        grid-row: 8/9;
+    }
+
+    .photos_images_item:nth-child(3){
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+
+    .photos_images_item:nth-child(4){
+        grid-column: 1/2;
+        grid-row: 4/6;
+    }
+
+    .photos_images_item:nth-child(5){
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+
+    .photos_images_item:nth-child(6){
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
 }
 
 @media screen and (max-width:480px){
@@ -607,8 +645,9 @@ body{
     .logos{
        justify-content: center;
        padding: 15px 0 20px;
+       grid-template-columns: repeat(3, 1fr);
+       grid-template-rows: repeat(2, 1fr);
     }
-    
 
     .activities_logos{
         gap: 40px;
@@ -653,56 +692,11 @@ body{
     .logos{
         display: grid;
         gap: 1px 5px;
-        grid-template-columns: repeat(3, 100px);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
 
     }
-
-    .logos_link{
-        width: 107px;
-        height: 94px;
-    }
-
-
-    .TNYT{
-        padding: 20px 15px;
-        width: 77px;
-        height: 55px;
-       }
     
-       .Forbes{
-        padding: 36px 14px;
-        width: 78px;
-        height: 21px;
-       }
-       
-       .Apple{
-        padding: 27px 36px;
-        width: 35px;
-        height: 40px;
-       }
-    
-       .Mashable{
-        padding: 42px 10px 39px 20px;
-        width: 77px;
-        height: 13px;
-       }
-    
-       .WSJ{
-        padding: 33px 29px;
-        width: 49px;
-        height: 28px;
-       }
-    
-       .Google{
-        padding: 35px 16px;
-        width: 75px;
-        height: 25px;
-       }
-    
-    
-
-
 }
 
 
@@ -732,58 +726,6 @@ body{
     .questions_text:not(:last-of-type){
         margin-bottom: 20px;
     }
-
-    .logos{
-        display: grid;
-        gap: 1px 5px;
-        grid-template-columns: repeat(3, 100px);
-        grid-template-rows: repeat(2, 1fr);
-        padding: 0;
-        margin: 0;
-    }
-    
-   
-    .logos_link{
-        width: 107px;
-        height: 94px;
-    }
-    
-   .TNYT{
-    padding: 20px 20px;
-    width: 77px;
-    height: 55px;
-   }
-
-   .Forbes{
-    padding: 36px 14px;
-    width: 78px;
-    height: 21px;
-   }
-   
-   .Apple{
-    padding: 27px 36px;
-    width: 35px;
-    height: 40px;
-   }
-
-   .Mashable{
-    padding: 42px 10px 39px 20px;
-    width: 77px;
-    height: 13px;
-   }
-
-   .WSJ{
-    padding: 33px 29px;
-    width: 49px;
-    height: 28px;
-   }
-
-   .Google{
-    padding: 35px 16px;
-    width: 75px;
-    height: 25px;
-   }
-
 
     .inbox{
         padding: 50px 0 48px;
