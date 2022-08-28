@@ -587,7 +587,8 @@ body{
 }
 
 .footer_flex{
-    align-items: flex-start;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer_info{
@@ -595,6 +596,7 @@ body{
 }
 
 .footer_flex-logo{
+    display: flex;
     justify-content: flex-start;
     align-items: center;
 }
@@ -633,7 +635,7 @@ body{
     text-decoration: none;
 }
 
-.footer_line{
+.footer_line, .footer_line-top{
     height: 2px;
     background-color: #2B292D;
     opacity: 0.1;
@@ -999,8 +1001,48 @@ body{
         margin: 0 auto 14px;
     }
 
+    .footer{
+        padding: 49px 0;
+    }
+
+
     .footer_flex{
         flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_flex-logo{
+        flex-direction: column;
+    }
+
+    .footer_logo, .footer_info-link, .footer_logo img{
+        margin-bottom: 33px;
+    }
+
+    .footer-logo_title{
+        text-align: center;
+    }
+
+    .footer_info-link{
+        text-align: center;
+    }
+
+    .footer_info-logolink:first-of-type{
+        margin-right: 46px;
+    }
+
+    .footer_about{
+        margin-top: 0;
+        margin-bottom: 38px;
+    }
+
+    .footer_about:not(:last-of-type){
+        margin-bottom: 25px;
+    }
+
+    .footer_info, .footer_about{
+        max-width: 340px;
+        width: 100%;
     }
 
     .footer_line, .footer_info-text{
@@ -1009,6 +1051,19 @@ body{
     
     .logo_footer{
         margin-bottom: 32px;
+    }
+
+    .footer_afterline-flex{
+        max-width: 340px;
+        align-items: flex-start;
+    }
+
+    .foooter_afterline-link {
+        margin-top: 0px;
+    }
+
+    .footer_afterline-logo {
+        margin-top: 28px;
     }
 
 }
@@ -1050,6 +1105,10 @@ body{
 
     .distribution_advantage{
         margin-bottom: 45px;
+    }
+
+    .footer_afterline-flex{
+        width: 340px;
     }
 }
 
@@ -1184,6 +1243,11 @@ body{
     
     .container-image_img{
         width: 65%;
+    }
+
+
+    .footer_info-logolink:first-of-type {
+        margin-right: 30px;
     }
 }
 
@@ -1398,5 +1462,25 @@ body{
 
     .distribution_button {
         margin-bottom: 10px;
+    }
+
+    .footer_info-link{
+        margin-bottom: 40px;
+    }
+
+    .footer_line-top{
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+
+    .footer_about {
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    
+    .footer_about:not(:last-of-type) {
+        margin-top: 30px;
+        margin-bottom: 0px;
     }
 }
