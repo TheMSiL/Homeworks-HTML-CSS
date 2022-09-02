@@ -544,6 +544,50 @@ body{
     padding: 62px 0;
 }
 
+.trust{
+    position: relative;
+    padding-bottom: 66px;
+}
+
+.trust > img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.trust_title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #3142C6;
+    margin-bottom: 28px;
+}
+
+.trust_text{
+    max-width: 750px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #2B292D;
+    margin: 0 auto 34px;
+}
+
+.carusel_title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #2B292D;
+}
+
+.carusel_text{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(43, 41, 45, 0.6);
+}
+
 .vacancy{
     padding: 106px 0 90px;
 }
