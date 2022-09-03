@@ -1250,6 +1250,30 @@ body{
         justify-items: center;
     }
 
+    .trust{
+        padding: 87px 0 0;
+    }
+
+    .trust_title{
+        max-width: 573px;
+        margin: 0 auto 14px;
+    }
+
+    .trust_text{
+        max-width: 583px;
+        margin: 0 auto;
+    }
+
+    .trust > img{
+        display: block;
+        position: static;
+        margin: 73px auto 0;
+    }
+
+    .bx-wrapper{
+        max-width: 125px;
+    }
+
     .vacancy_title{
         max-width: 555px;
         margin: 0 auto 14px;
@@ -1833,8 +1857,22 @@ body{
         justify-items: center;
     }
 
+
+    .trust{
+        padding: 53px 0 113px;
+    }
+
+    .trust_title{
+        margin: o auto 29px;
+        text-align: start;
+    }
+    .trust_text{
+        text-align: start;
+        margin: 0 auto 32px;
+    }
+
     .vacancy{
-        padding: 115px 0 78px;
+        padding: 0 0 78px;
     }
     
     .vacancy_text{
