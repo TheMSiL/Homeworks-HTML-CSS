@@ -1270,10 +1270,6 @@ body{
         margin: 73px auto 0;
     }
 
-    .bx-wrapper{
-        max-width: 125px;
-    }
-
     .vacancy_title{
         max-width: 555px;
         margin: 0 auto 14px;
@@ -1870,6 +1866,12 @@ body{
         text-align: start;
         margin: 0 auto 32px;
     }
+
+    .carusel_title, .carusel_text{
+        text-align: start;
+    }
+
+
 
     .vacancy{
         padding: 0 0 78px;
