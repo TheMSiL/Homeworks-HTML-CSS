@@ -67,7 +67,7 @@ header{
     content: url('../img/header/cart.svg');
     position: absolute;
     left: 12px;
-    top: 12px;
+    top: 10px;
 }
 
 
@@ -168,7 +168,7 @@ header{
     top: 50%;
 }
 
-.flex_product{
+.about_img-flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -230,9 +230,15 @@ header{
     align-items: center;
 }
 
-.feature_about-text{
+
+.feature_about-text, .feature_about-secondtext{
     max-width: 396px;
 }
+
+.feature_about-secondtext{
+    margin-right: 250px;
+}
+
 
 .feature_text-title{
     font-family: 'Poppins';
@@ -266,6 +272,11 @@ header{
     max-width: 100%;
 }
 
+.feature_about-orangeimg{
+    position: relative;
+    right: 65px;
+}
+
 .feature_about-img{
     position: relative;
 }
@@ -281,11 +292,20 @@ header{
 }
 
 .feature_about-orangeimg::before{
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 220px;
     left: -70px;
     top: 100px;
+    background-color: #F5F5F5;
 }
 
 .feature_asidetext{
     right: -15px;
     top: 50%;
+}
+
+.collection{
+    padding: 120px 0;
 }
