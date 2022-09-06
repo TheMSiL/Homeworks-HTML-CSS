@@ -42,16 +42,27 @@ header{
 .nav_li:last-of-type{
     margin-right: 0;
     border-left: 1px solid rgba(235, 235, 235, 1);
-    padding: 15px 0 15px 17px ;
+    padding: 10px 0 10px 35px ;
     font-size: 14px;
     letter-spacing: 0;
     text-transform: none;
     color: black;
+    position: relative;
 }
 
-.cart{
-    margin-right: 6px;
+.nav_li:last-of-type::before{
+    content: url('../img/header/cart.svg');
+    position: absolute;
+    left: 12px;
+    top: 12px;
 }
+
+
+/* .nav_li-flex{
+    display: flex;
+    align-items: center;
+} */
+
 
 
 .main{
