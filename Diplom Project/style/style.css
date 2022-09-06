@@ -7,6 +7,19 @@ header{
     margin: 0 auto;
 }
 
+.container_asidetext{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #DBDBDB;
+    transform: rotate(-90deg);
+    position: absolute;
+}
+
 .flex{
     display: flex;
     justify-content: space-between;
@@ -58,13 +71,6 @@ header{
 }
 
 
-/* .nav_li-flex{
-    display: flex;
-    align-items: center;
-} */
-
-
-
 .main{
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
@@ -78,6 +84,7 @@ header{
     position: absolute;
     top: 100px;
     right: 30px;
+    max-width: 100%;
 }
 
 .container_title{
@@ -156,17 +163,7 @@ header{
     line-height: 50px;
 }
 
-.container_asidetext{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 34px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #DBDBDB;
-    transform: rotate(-90deg);
-    position: absolute;
+.product_asidetext{
     left: -34px;
     top: 50%;
 }
@@ -219,4 +216,76 @@ header{
 
 .product_about-text:not(:last-of-type){
     margin-right: 135px;
+}
+
+
+.feature{
+    padding: 77px 0 85px;
+    position: relative;
+}
+
+.feature_about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feature_about-text{
+    max-width: 396px;
+}
+
+.feature_text-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 23px;
+}
+
+.feature_text-text{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6C6C6C;
+    margin-bottom: 27px;
+}
+
+.feature_text-aftertext{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.feature_img{
+    position: relative;
+    max-width: 100%;
+}
+
+.feature_about-img{
+    position: relative;
+}
+
+.feature_about-img::before{
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 220px;
+    left: -100px;
+    top: 154px;
+    background-color: #F5F5F5;
+}
+
+.feature_about-orangeimg::before{
+    left: -70px;
+    top: 100px;
+}
+
+.feature_asidetext{
+    right: -15px;
+    top: 50%;
 }
