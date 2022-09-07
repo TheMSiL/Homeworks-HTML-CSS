@@ -151,11 +151,11 @@ header{
     position: relative;
 }
 
-.container_title-product, .product_title {
+.container_title-product, .container_title-collection, .collection_title {
     text-align: center;
 }
 
-.product_title{
+.product_title, .collection_title{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -308,4 +308,55 @@ header{
 
 .collection{
     padding: 120px 0;
+    position: relative;
+}
+
+.container_title-collection{
+    margin-bottom: 17px;
+}
+
+.collection_text{
+    margin-bottom: 63px;
+}
+
+.collection_asidetext{
+    left: -34px;
+    top: 50%;
+}
+
+.collection_grid_items{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.collection_grid-item{
+    max-width: 371px;
+}
+
+.collection_item-title{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    margin: 20px 0 5px 0;
+}
+
+.collection_item_value{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 15px;
+    margin-bottom: 21px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.collection_button{
+    display: block;
+    margin: 40px auto 0;
 }
