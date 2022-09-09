@@ -15,20 +15,29 @@
     <header>
         <div class="container flex">
             <img src="./img/header/logo.svg" alt="logo">
-            <nav>
-                <ul>
-                    <li class="nav_li">Home</li>
-                    <li class="nav_li">About</li>
-                    <li class="nav_li">Shop</li>
-                    <li class="nav_li">Contact</li>
-                    <li class="nav_li">Cart</li>
-                </ul>
-            </nav>
+            <div class="menu">
+                <input type="checkbox" class="checkbox_header">
+                <div class="check-wrapper">
+                    <div class="check"></div>
+                    <div class="check"></div>
+                    <div class="check"></div>
+                </div>
+                <nav>
+                    <ul class="header_ul">
+                        <li class="nav_li">Home</li>
+                        <li class="nav_li">About</li>
+                        <li class="nav_li">Shop</li>
+                        <li class="nav_li">Contact</li>
+                        <li class="nav_li">Cart</li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <section class="main">
-            <div class="container">
-                <div class="container main_info">
+        <div class="container_for-img">
+            <div class="container main_container">
+                <div class="main_info">
                     <h5 class="container_title">
                         POMPEO POTTERY
                     </h5>
@@ -38,14 +47,14 @@
                     <p class="main_info-text">
                         Unique & modern pottery made by our master in porcelain & stones
                     </p>
-                    <button class="button">
+                    <button id="open-modal" class="button">
                         SHOP COLLECTION
                     </button>
                 </div>
-            </div>
-            <div>
-                <img class="main_img" src="./img/main/main_img.png" alt="vase_main">
-            </div>
+                <div>
+                    <img class="main_img" src="./img/main/main_img.png" alt="vase_main">
+                </div>
+        </div>
     </section>
     <section class="product">
         <div class="container">
@@ -61,12 +70,12 @@
                 Hand Craft Pottery
             </p>
             <div>
-                <div class="about_img about_img-flex">
+                <div class="about_img">
                     <img class="product_about-img" src="./img/product/vases.png" alt="vases">
                     <img class="product_about-img" src="./img/product/mugs.png" alt="mugs">
                     <img class="product_about-img" src="./img/product/plates.png" alt="plates">
                 </div>
-                <div class="flex">
+                <div class="product_about">
                     <p class="product_about-text">
                         <span class="product_about-title">Hand Grafted Pottery since 1990</span> <br>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus posuere.
@@ -91,12 +100,12 @@
                 <div class="feature_about-text">
                     <p class="feature_text-title">Gold & Black Pottery</p>
                     <p class="feature_text-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore dolore aua. Ut enim ad minim veniam, quis nostrud exercitationulco laboris nisi ut aliquip ex ea commodo consequatuisaute.</p>
-                    <p class="feature_text-aftertext">View Details</p>
+                    <a class="feature_text-aftertext" href="#"><p>View Details</p></a>
                 </div>
                 <div class="feature_about-text">
                     <p class="feature_text-title">Orange Ceramic</p>
                     <p class="feature_text-text">Pri cu dico labores officiis, odio principes complectitur ad sea. Sea id doctus forensibus, nec lorem vocent aliquam eu. Aliquid definitiones id cum, ad meliore perpetua referrentur sed. Quas suscipit ad mea verear vivendo tincidunt.</p>
-                    <p class="feature_text-aftertext">View Details</p>
+                    <a class="feature_text-aftertext" href="#"><p >View Details</p></a>
                 </div>
                 <div class="feature_about-img feature_about-img--second">
                     <img class="feature_img" src="./img/feature/orange.png" alt="orange">
@@ -179,7 +188,7 @@
         </div>
     </section>
     <section class="plates">
-        <div class="container">
+        <div class="container ">
             <h5 class="container_title container_title-plates">
                 Pompeo POttery
             </h5>
@@ -187,7 +196,7 @@
                 Ready to start shopping?
             </p>
             <p class="plates_text">
-                Lorem ipsum dolor sit amet, <a class="plates_link" href="#">consectetur adipiscing elit</a> . Suspendisse varius enim in eros elementum.
+                Lorem ipsum dolor sit amet, <a class="plates_link" href="#">consectetur adipiscing elit</a> .Suspendisse varius enim in eros elementum.
             </p>
             <button class="button">
                 New Collection
@@ -272,5 +281,23 @@
                 </div>
             </div>
     </footer>
+    <div class="modal-overlay">
+        <div class="modal">
+           <a href="#"><img class="modal_item" src="./img/product/vases.png" alt="vases"></a>
+           <a href="#"><img class="modal_item" src="./img/product/mugs.png" alt="mugs"></a>
+           <a href="#"><img class="modal_item" src="./img/product/plates.png" alt="plates"></a>
+            <p class="close">
+                ✕
+            </p>
+        </div>
+    </div>
+    <div id="up">
+        <span>
+            &#5169;
+        </span>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script/modal.js"></script>
+    <script src="./script/upButton.js"></script>
 </body>
 </html>
