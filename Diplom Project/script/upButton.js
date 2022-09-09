@@ -10,7 +10,23 @@ $('#up') .on ('click', function(){
     $('html, body').animate({scrollTop: 0}, 400)
 })
 
-$('#about_link').on('click', function(e){
+
+$('#news_link').on('click', function(e){
     e.preventDefault();
-    $('html, body').animate({scrollTop: $('#about').offset().top}, 100)
+    $('html, body').animate({scrollTop: $('#news').offset().top}, 100)
+})
+
+$('#product_link').on('click', function(e){
+    e.preventDefault();
+    $('html, body').animate({scrollTop: $('#product').offset().top}, 100)
+})
+
+$('#collection_link').on('click', function(e){
+    e.preventDefault();
+    $('html, body').animate({scrollTop: $('#collection').offset().top}, 100)
+})
+
+$('#footer_link').on('click', function(e){
+    e.preventDefault();
+    $('html, body').animate({scrollTop: $('#footer').offset().top}, 100)
 })

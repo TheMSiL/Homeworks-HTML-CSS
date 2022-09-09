@@ -886,6 +886,10 @@ header{
         z-index: 3;
     }
 
+    .checkbox_header:checked ~ .check-wrapper{
+        position: fixed;
+    }
+
     .checkbox_header:checked ~ .check-wrapper > .check:first-of-type{
         transform: rotate(45deg) translate(5px, 12px);
     }
