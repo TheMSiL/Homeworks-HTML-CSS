@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Rolan";
+    src: url(../../fonts/Rolan-Regular.woff);
+}
+
+@font-face {
+    font-family: "Rolan-Bold";
+    src: url(../../fonts/Rolan-Bold.woff);
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "Rolan";
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    margin: 0;
+}
+
+button{
+    outline: none;
+    padding: 0;
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+}
+
+
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+

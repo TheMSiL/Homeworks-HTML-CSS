@@ -1,0 +1,79 @@
+.subscribe{
+    padding: 150px 0 52px;
+
+    &_picture{
+        margin-right: 50px;
+
+        &-img{
+            max-width: 100%;
+        }
+    }
+
+    &_info{
+        max-width: 544px;
+        text-align: left;
+        padding: 65px 0 0;
+
+        &-pretitle{
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 0.1px;
+            color: #252B42;
+            margin-bottom: 7px;
+        }
+
+        &-title{
+            margin-bottom: 17px
+        }
+
+        &_form{
+            &-title{
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: 0.1px;
+                color: #252B42;
+            }
+
+            &-text{
+                font-size: 17px;
+                line-height: 25px;
+                letter-spacing: 0.2px;
+                color: #374754;
+                margin-bottom: 36px;
+            }
+            
+
+            &-input{
+                padding: 19px 0 19px 39px;
+                width: 273px;
+                height: 54px;
+                background-color: #F4F4F4;
+                border: 1px solid #E8E8E8;
+                border-radius: 39px;
+                font-size: 14px;
+                line-height: 16px;
+                letter-spacing: 0.1px;
+                color: #18171D;
+                margin-right: 12px;
+
+                &::placeholder{
+                    font-size: 14px;
+                    line-height: 16px;
+                    letter-spacing: 0.1px;
+                    color: #18171D;
+                }
+        
+            }
+
+            
+            
+            &-button{
+                max-width: 172px;
+                line-height: 20px;
+            }
+        
+        }
+    }
+
+    
+}

@@ -1,0 +1,25 @@
+.organize{
+    padding: 284px 0;
+
+    &_info{
+        max-width: 532px;
+        
+        &-title{
+            max-width: 335px;
+            font-weight: 400;
+            margin-bottom: 17px;
+        }
+
+        &-text{
+            font-size: 30px;
+            line-height: 40px;
+            letter-spacing: 0.2px;
+            color: #374754;
+            margin-bottom: 70px;
+        }
+        
+        &-button{
+            max-width: 236px;
+        }
+    }
+}
