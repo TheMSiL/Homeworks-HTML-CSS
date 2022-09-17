@@ -1,0 +1,242 @@
+header{
+    padding: 22px 0;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.title{
+    font-family: 'Chivo';
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+}
+
+.aftertitle{
+    font-family: 'Chivo';
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.206928px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+    }
+
+.header_logo{
+    margin-right: -70px;
+}
+
+/* Может слегка дурацкий но способ применить и флекс каким он должен быть + идентично макету */
+
+.header_list-li{
+    display: inline-block;
+    font-family: 'Century Gothic';
+    font-size: 13px;
+    line-height: 14px;
+    color: #AAAAAA;
+}
+
+.header_list-li:first-of-type, .header_list-li:nth-of-type(2){
+    margin-right: 59px;
+}
+
+.header_list-li:nth-of-type(3){
+    margin-right: 41px;
+}
+
+
+.miniatures{
+    padding: 87px 0 244px;
+    position: relative;
+}
+
+.miniatures_picture{
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    left: 0%;
+    right: 0%;
+    top: 87px;
+}
+
+.miniatures_title{
+    margin: 264px 0 17px;
+}
+
+.textile{
+    padding: 34px 0 176px;
+    position: relative;
+}
+
+.textile_picture{
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    left: 0%;
+    right: 0%;
+    top: 34px;
+}
+
+.textile_title{
+    margin: 243px 0 20px;
+    font-weight: 700;
+}
+
+
+.collection{
+    padding: 17px 0 195px;
+    position: relative;
+}
+
+.flex_collection, .exposition_flex{
+    justify-content: space-evenly;
+}
+
+
+.collection_item_1-title, .collection_item_2-title{
+    font-family: 'Chivo';
+    font-size: 23px;
+    line-height: 28px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+    margin: 192px 0 10px;
+}
+
+.collection_item_1-title{
+    right: 10px;
+}
+
+.collection_item_2-title{
+    left: 15px;
+}
+
+.collection_item_1-picture{
+    position: absolute;
+    left: 260px;
+    top: 17px;
+    z-index: 1;
+}
+
+.collection_item_2-picture{
+    position: absolute;
+    right: 260px;
+    top: 17px;
+    z-index: 1;
+}
+
+.collection_item_1-text, .collection_item_2-text{
+    font-family: 'Chivo';
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.13px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.collection_item_1-text{
+    right: 10px;
+}
+
+.collection_item_2-text{
+    left: 15px;
+}
+
+
+.exposition{
+    padding: 34px 0 138px;
+    position: relative;
+}
+
+.exposition_item >div{
+    position: absolute;
+    z-index: 1;
+}
+
+.exposition_item:first-of-type > div{
+    left: 260px;
+}
+
+.exposition_item:nth-of-type(2) > div{
+    left: 580px;
+}
+
+.exposition_item:last-of-type > div{
+    right: 260px;
+}
+
+
+.exposition_item-firstext{
+    position: relative;
+    font-family: 'Chivo';
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2;
+    margin: 118px 0 6px;
+}
+
+.exposition_item-secondtext{
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.13px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+}
+
+footer{
+    padding: 115px 0 18px;
+}
+
+.footer_links{
+   text-align: center;
+   margin-bottom: 7px;
+}
+
+.footer_links > a >img{
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.footer_links > a >img:hover{
+    opacity: 1;
+}
+
+.footer_links > a:not(:last-of-type){
+    margin-right: 10px;
+}
+
+.footer_picture{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer_text{
+    font-family: 'Abel';
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.38px;
+    color: #333333;
+}
