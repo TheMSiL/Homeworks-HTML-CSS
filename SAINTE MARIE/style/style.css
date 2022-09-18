@@ -3,14 +3,14 @@ header{
 }
 
 .container{
-    max-width: 1140px;
+    max-width: 920px;
     margin: 0 auto;
 }
 
 .flex{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -43,10 +43,14 @@ header{
 
 .header_list-li{
     display: inline-block;
+}
+
+.header_list-li>a{
     font-family: 'Century Gothic';
     font-size: 13px;
     line-height: 14px;
     color: #AAAAAA;
+    text-decoration: none;
 }
 
 .header_list-li:first-of-type, .header_list-li:nth-of-type(2){
@@ -59,84 +63,58 @@ header{
 
 
 .miniatures{
-    padding: 87px 0 244px;
-    position: relative;
-}
-
-.miniatures_picture{
-    position: absolute;
-    text-align: center;
-    z-index: 1;
-    left: 0%;
-    right: 0%;
-    top: 87px;
+    padding: 252px 0;
+    background: url(../img/miniatures/miniatures_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 87px auto 34px;
 }
 
 .miniatures_title{
-    margin: 264px 0 17px;
+    margin-bottom: 17px;
 }
 
 .textile{
-    padding: 34px 0 176px;
-    position: relative;
-}
-
-.textile_picture{
-    position: absolute;
-    text-align: center;
-    z-index: 1;
-    left: 0%;
-    right: 0%;
-    top: 34px;
+    padding: 210px 0;
+    background: url(../img/textile/textile_picture.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+   
 }
 
 .textile_title{
-    margin: 243px 0 20px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 
 .collection{
-    padding: 17px 0 195px;
-    position: relative;
+    padding-top: 17px;
 }
-
-.flex_collection, .exposition_flex{
-    justify-content: space-evenly;
-}
-
 
 .collection_item_1-title, .collection_item_2-title{
     font-family: 'Chivo';
     font-size: 23px;
     line-height: 28px;
     color: #FFFFFF;
-    position: relative;
-    z-index: 2;
-    margin: 192px 0 10px;
+    margin-bottom: 10px;
 }
 
-.collection_item_1-title{
-    right: 10px;
+.collection_item_1{
+    padding: 192px 139px;
+    background: url(../img/collection/sand.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.collection_item_2-title{
-    left: 15px;
+.collection_item_2{
+    padding: 192px 110px;
+    background: url(../img/collection/chanvre.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.collection_item_1-picture{
-    position: absolute;
-    left: 260px;
-    top: 17px;
-    z-index: 1;
-}
-
-.collection_item_2-picture{
-    position: absolute;
-    right: 260px;
-    top: 17px;
-    z-index: 1;
-}
 
 .collection_item_1-text, .collection_item_2-text{
     font-family: 'Chivo';
@@ -144,40 +122,35 @@ header{
     line-height: 20px;
     letter-spacing: 0.13px;
     color: #FFFFFF;
-    position: relative;
-    z-index: 2;
     text-align: center;
 }
 
-.collection_item_1-text{
-    right: 10px;
-}
-
-.collection_item_2-text{
-    left: 15px;
-}
 
 
 .exposition{
-    padding: 34px 0 138px;
-    position: relative;
+    padding: 34px 0 132px;
+   
 }
 
-.exposition_item >div{
-    position: absolute;
-    z-index: 1;
+.exposition_item:first-of-type{
+    padding: 122px 64px;
+    background: url(../img/exposition/first.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.exposition_item:first-of-type > div{
-    left: 260px;
+.exposition_item:nth-of-type(2){
+    padding: 122px 86px;
+    background: url(../img/exposition/second.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.exposition_item:nth-of-type(2) > div{
-    left: 580px;
-}
-
-.exposition_item:last-of-type > div{
-    right: 260px;
+.exposition_item:last-of-type{
+    padding: 122px 63px;
+    background: url(../img/exposition/third.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -188,8 +161,6 @@ header{
     line-height: 18px;
     text-align: center;
     color: #FFFFFF;
-    z-index: 2;
-    margin: 118px 0 6px;
 }
 
 .exposition_item-secondtext{
@@ -201,12 +172,10 @@ header{
     text-align: center;
     letter-spacing: 0.13px;
     color: #FFFFFF;
-    position: relative;
-    z-index: 2;
 }
 
 footer{
-    padding: 115px 0 18px;
+    padding-bottom: 18px;
 }
 
 .footer_links{
@@ -216,11 +185,10 @@ footer{
 
 .footer_links > a >img{
     border-radius: 50%;
-    opacity: 0.5;
 }
 
 .footer_links > a >img:hover{
-    opacity: 1;
+    background-color: #E31D3E;
 }
 
 .footer_links > a:not(:last-of-type){
@@ -239,4 +207,16 @@ footer{
     text-align: center;
     letter-spacing: 0.38px;
     color: #333333;
+}
+
+.special{
+    background: url(../img/miniatures/miniatures_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-special{
+    max-width: 920px;
+    text-align: center;
+    margin: 0 auto;
 }
